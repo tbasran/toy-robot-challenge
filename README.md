@@ -1,5 +1,7 @@
 # Toy Robot Code Challenge
 
+[![.NET](https://github.com/tbasran/toy-robot-challenge/actions/workflows/dotnet.yml/badge.svg)](https://github.com/tbasran/toy-robot-challenge/actions/workflows/dotnet.yml)
+
 Welcome to my solution to the Toy Robot Code Challenge.
 
 ## Description and requirements
