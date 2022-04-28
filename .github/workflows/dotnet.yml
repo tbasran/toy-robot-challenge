@@ -5,7 +5,7 @@ on:
   pull_request:
 
 jobs:
-  build:
+  build-and-test:
 
     runs-on: ubuntu-latest
 
@@ -16,8 +16,11 @@ jobs:
       with:
         dotnet-version: 3.1.x
     - name: Restore dependencies
+      working-directory: ./src
       run: dotnet restore
     - name: Build
+      working-directory: ./src
       run: dotnet build --no-restore
     - name: Test
+      working-directory: ./src
       run: dotnet test --no-build --verbosity normal
