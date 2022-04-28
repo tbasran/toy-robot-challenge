@@ -1,0 +1,10 @@
+.idea
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+*.DotSettings.user
+**/.vs
+**/coverage-report
+**/coverage.opencover.xml
