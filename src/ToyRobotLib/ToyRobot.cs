@@ -4,7 +4,7 @@ namespace ToyRobotLib
 {
     public class ToyRobot : IToyRobot
     {
-        private readonly Dictionary<Direction, Direction> _leftLookup = new Dictionary<Direction, Direction>
+        private readonly Dictionary<Direction, Direction> _leftLookup = new()
         {
             { Direction.EAST, Direction.NORTH },
             { Direction.NORTH, Direction.WEST },
@@ -12,7 +12,7 @@ namespace ToyRobotLib
             { Direction.SOUTH, Direction.EAST }
         };
 
-        private readonly Dictionary<Direction, Coordinate> _moveLookup = new Dictionary<Direction, Coordinate>
+        private readonly Dictionary<Direction, Coordinate> _moveLookup = new()
         {
             { Direction.EAST, new Coordinate(1, 0) },
             { Direction.WEST, new Coordinate(-1, 0) },
@@ -20,7 +20,7 @@ namespace ToyRobotLib
             { Direction.SOUTH, new Coordinate(0, -1) }
         };
 
-        private readonly Dictionary<Direction, Direction> _rightLookup = new Dictionary<Direction, Direction>
+        private readonly Dictionary<Direction, Direction> _rightLookup = new()
         {
             { Direction.EAST, Direction.SOUTH },
             { Direction.SOUTH, Direction.WEST },

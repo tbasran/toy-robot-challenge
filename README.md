@@ -56,7 +56,7 @@ Once the script is completed the following code coverage reports will be availab
 
 ### Running the application
 
-To run the toy robot simulation run: `dotnet run -p ./ToyRobotConsoleApp -c Release`
+To run the toy robot simulation run: `dotnet run -project ./ToyRobotConsoleApp -c Release`
 
 #### Example Input and Output
 
