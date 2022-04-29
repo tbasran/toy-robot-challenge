@@ -49,7 +49,7 @@ To open the developer/execution environment run: `docker-compose run --rm dotnet
 
 To execute the tests and produce code coverage reports run:`./run-tests.sh`
 
-Once the script is completed these code coverage reports will be avaialable:
+Once the script is completed the following code coverage reports will be available:
 
 - [Unit tests](./src/coverage-report/unit/index.html)
 - [Integration tests](./src/coverage-report/integration/index.html)
