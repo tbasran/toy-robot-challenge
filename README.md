@@ -29,7 +29,7 @@ The toy robot must not fall off the table during movement. This also includes th
 
 ## Solution
 
-The solution is a dotnet core 3.1 console application written in c#. It comprises of the following projects:
+The solution is a dotnet 6.0 console application written in c#. It comprises of the following projects:
 
 - [ToyRobotLib](./src/ToyRobotLib/): Core business logic for the application.
 
@@ -56,7 +56,7 @@ Once the script is completed the following code coverage reports will be availab
 
 ### Running the application
 
-To run the toy robot simulation run: `dotnet run -project ./ToyRobotConsoleApp -c Release`
+To run the toy robot simulation run: `dotnet run --project ./ToyRobotConsoleApp -c Release`
 
 #### Example Input and Output
 
