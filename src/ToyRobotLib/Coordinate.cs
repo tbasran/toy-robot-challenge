@@ -16,7 +16,7 @@ namespace ToyRobotLib
 
         public bool IsValid()
         {
-            return X >= MinValue && X <= MaxValue && Y >= MinValue && Y <= MaxValue;
+            return X is >= MinValue and <= MaxValue && Y is >= MinValue and <= MaxValue;
         }
     }
 }

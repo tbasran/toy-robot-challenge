@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/dotnet/sdk:3.1-alpine
+FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine
 
 COPY src/ToyRobotConsoleApp/ToyRobotConsoleApp.csproj /app/src/ToyRobotConsoleApp/ToyRobotConsoleApp.csproj
 COPY src/ToyRobotConsoleApp.IntegrationTest/ToyRobotConsoleApp.IntegrationTest.csproj /app/src/ToyRobotConsoleApp.IntegrationTest/ToyRobotConsoleApp.IntegrationTest.csproj

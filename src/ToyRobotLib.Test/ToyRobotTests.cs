@@ -2,7 +2,6 @@ using Xunit;
 
 namespace ToyRobotLib.Test
 {
-    // ignore coverage
     public class ToyRobotTests
     {
         private readonly IToyRobot _toyRobot;
